@@ -1,5 +1,5 @@
 @font-face{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono';
     src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/eot/JetBrainsMono-Regular.eot') format('embedded-opentype'),
          url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
          url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/web/woff/JetBrainsMono-Regular.woff') format('woff'),
@@ -12,13 +12,13 @@ body .main-container {
 max-width: 1200px;
 }
 
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+pre code {
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'JetBrains Mono';
 }
+
 a{
   color: #dab844;
 }
@@ -46,7 +46,7 @@ pre {
   display: block;
   padding: 2px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 90%;
   line-height: 1.42857143;
   color: #333;
   word-break: break-all;
