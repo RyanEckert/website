@@ -1,0 +1,77 @@
+/* Dracula Theme v1.2.5
+ *
+ * https://github.com/dracula/highlightjs
+ *
+ * Copyright 2016-present, All rights reserved
+ *
+ * Code licensed under the MIT license
+ *
+ * @author Denis Ciccale <dciccale@gmail.com>
+ * @author Zeno Rocha <hi@zenorocha.com>
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282a36;
+}
+
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-link {
+  color: #8be9fd;/*cyan*/
+}
+
+.hljs-keyword {
+  color: #ff79c6;/*pink*/
+}
+
+.hljs-symbol,
+.hljs-addition {
+  color: #A4FFFF;/*bright cyan*/
+}
+
+.hljs-subst {
+  color: #ff5555;/*red*/
+}
+
+.hljs {
+  color: #f8f8f2;/*foreground*/
+}
+
+.hljs-title {
+  color: #50fa7b;/*green*/
+}
+
+.hljs-number {
+  color: #ffb86c;/*orange*/
+}
+
+.hljs-string,
+.hljs-meta,
+.hljs-name,
+.hljs-type,
+.hljs-attr,
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #f1fa8c; /*yellow*/
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
+  color: #6272a4;/*comment*/
+}
+
+
+.hljs-literal {
+  color: #bd93f9;/*purple*/
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
