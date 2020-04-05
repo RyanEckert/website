@@ -43,7 +43,7 @@ Adapted from [Klepac et al. (2015)](https://doi.org/10.3354/meps11369){target="_
 # Symbiodiniaceae *ITS2* amplification
 ***
 
-Starting with *clean* DNA template that was quantified *fluorescently* will greatly increase amplification success. <br>
+Starting with **<font color="#50fa7b">*clean*</font>** DNA template that was quantified **<font color="#50fa7b">*fluorescently*</font>** will greatly increase amplification success. <br>
 
 We want to try to avoid over-amplification, so we will start with 22 cycles and check on an agarose gel before final extension.
 <br>

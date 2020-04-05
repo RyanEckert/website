@@ -26,7 +26,7 @@ library(magrittr)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXX)
 
 #### [GitHub repository](https://github.com/RyanEckert/NWGOM_ROV_2010_2015.git){target="_blank"}
-
+***
 # About this document
 ***
 #### All analyses preformed with R version `r getRversion()`.
